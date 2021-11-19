@@ -68,11 +68,33 @@
           </li>
         </ul>
         <!-- Кнопка мобільного меню -->
-        <button class="header_btn">
-          <svg class="header_icon">
+        <button class="header__btn" data-menu-open>
+          <svg class="header__icon">
             <use href="./images/icons.svg#menu"></use>
           </svg>
         </button>
+        <div class="mobile" data-menu>
+          <button class="mobile__close" data-menu-close>
+            <svg class="mobile_close-icon">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobile__nav list">
+            <li class="mobile__item">
+              <a
+                href="./index.html"
+                class="mobile__link link mobile__link--current"
+                >Студия</a
+              >
+            </li>
+            <li class="mobile__item">
+              <a href="./portfolio.html" class="mobile__link link">Портфолио</a>
+            </li>
+            <li class="mobile__item">
+              <a href="" class="mobile__link link">Контакты</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!--Основний текст сайту-->
@@ -560,5 +582,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
