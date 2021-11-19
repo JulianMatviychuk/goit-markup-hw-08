@@ -285,10 +285,11 @@ ul {
 }
 
 .header_btn {
-  display: block;
   background-color: transparent;
   cursor: pointer;
   border: none;
+  padding: 0px;
+  line-height: 0px;
 }
 
 .header_btn .header_icon {
