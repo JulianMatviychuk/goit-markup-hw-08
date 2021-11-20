@@ -391,12 +391,12 @@ ul {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-  bottom: -22px;
+  bottom: -24px;
 }
 
 @media screen and (min-width: 1200px) {
   .navigation__link--current.navigation__link::after {
-    bottom: -31.4px;
+    bottom: -32px;
   }
 }
 
@@ -486,7 +486,7 @@ ul {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images//ermakov.jpg);
   height: 400px;
   max-width: 480px;
   background-repeat: no-repeat;
