@@ -218,6 +218,10 @@ ul {
   }
 }
 
+.mobile__nav-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mobile__nav-link {
   font-weight: 500;
   font-size: 40px;
@@ -231,8 +235,12 @@ ul {
 }
 
 .mobile__auth {
-  margin-top: 102px;
+  margin-top: auto;
   margin-bottom: 64px;
+}
+
+.mobile__auth-item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mobile__auth-tel {

@@ -84,7 +84,8 @@
 .mobile__nav {
 }
 
-.mobile__nav-item {
+.mobile__nav-item:not(:last-child) {
+  margin-bottom: 32px;
 }
 .mobile__nav-link {
   font-weight: 500;
@@ -99,11 +100,12 @@
 }
 
 .mobile__auth {
-  margin-top: 102px;
+  margin-top: auto;
   margin-bottom: 64px;
 }
 
-.mobile__auth-item {
+.mobile__auth-item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mobile__auth-tel {
