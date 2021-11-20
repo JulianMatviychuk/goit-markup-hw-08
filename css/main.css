@@ -173,7 +173,7 @@ ul {
   .clients__title {
     font-size: 36px;
     line-height: 1.17;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 
@@ -760,6 +760,7 @@ ul {
 .team__menu {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
 }
 
 .team__item {
