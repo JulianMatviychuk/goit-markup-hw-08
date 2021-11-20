@@ -871,6 +871,14 @@ ul {
   fill: currentColor;
 }
 
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 :root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
