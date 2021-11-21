@@ -8,6 +8,17 @@
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 
 .footer__box {
@@ -15,6 +26,9 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .footer__street {
@@ -73,6 +87,14 @@
 .social--footer {
   width: 206px;
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-left: 70px;
+    margin-right: auto;
+  }
 }
 
 .sign {
@@ -80,6 +102,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  @media screen and (min-width: 1200px) {
+    width: 570px;
+    align-items: stretch;
+  }
 }
 
 .social__text--footer,
@@ -92,6 +118,9 @@
   color: var(--white-title-color);
   text-align: center;
   margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .sign__text {
@@ -102,12 +131,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .sign__input {
   height: 50px;
   width: 100%;
   margin-bottom: 20px;
+  padding-left: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: inherit;
@@ -120,6 +153,13 @@
   &:focus {
     outline: none;
     border-color: var(--accent-color);
+  }
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: auto;
+    margin-bottom: 0;
   }
 }
 
@@ -142,5 +182,8 @@
   .sign__icon {
     margin-left: 10px;
     fill: var(--white-title-color);
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
   }
 }

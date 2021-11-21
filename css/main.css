@@ -915,11 +915,34 @@ ul {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__block {
+    width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__block {
+    width: 1200px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
 .footer__box {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__box {
+    margin-bottom: 0;
+  }
 }
 
 .footer__street {
@@ -983,11 +1006,32 @@ ul {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .social--footer {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social--footer {
+    margin-bottom: 0;
+    margin-left: 70px;
+    margin-right: auto;
+  }
+}
+
 .sign {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .sign {
+    width: 570px;
+    align-items: stretch;
+  }
 }
 
 .social__text--footer,
@@ -1002,6 +1046,13 @@ ul {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .social__text--footer,
+  .sign__text {
+    text-align: left;
+  }
+}
+
 .sign__form {
   display: flex;
   flex-direction: column;
@@ -1009,10 +1060,17 @@ ul {
   width: 100%;
 }
 
+@media screen and (min-width: 1200px) {
+  .sign__form {
+    flex-direction: row;
+  }
+}
+
 .sign__input {
   height: 50px;
   width: 100%;
   margin-bottom: 20px;
+  padding-left: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: inherit;
@@ -1027,6 +1085,19 @@ ul {
 .sign__input:focus {
   outline: none;
   border-color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .sign__input {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sign__input {
+    min-width: auto;
+    margin-bottom: 0;
+  }
 }
 
 .sign__button {
@@ -1050,6 +1121,12 @@ ul {
 .sign__button .sign__icon {
   margin-left: 10px;
   fill: var(--white-title-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .sign__button {
+    margin-left: 12px;
+  }
 }
 
 :root {
