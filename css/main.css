@@ -942,6 +942,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .footer__box {
     margin-bottom: 0;
+    align-items: stretch;
   }
 }
 
@@ -980,6 +981,7 @@ ul {
   .footer__web {
     margin-top: 9px;
     margin-bottom: 9px;
+    text-align: left;
   }
 }
 
@@ -999,6 +1001,12 @@ ul {
 
 .footer__tel:hover, .footer__tel:focus {
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__tel {
+    text-align: left;
+  }
 }
 
 .social--footer {
