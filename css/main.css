@@ -772,10 +772,10 @@ ul {
 @media screen and (max-width: 767px) {
   .team__item {
     flex-basis: 100%;
+    margin: 15px;
   }
   .team__item:not(:last-child) {
     margin-bottom: 30px;
-    margin: 15px;
   }
 }
 
