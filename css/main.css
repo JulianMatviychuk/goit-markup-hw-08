@@ -403,6 +403,12 @@ ul {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 480px) {
+  .accept {
+    margin-bottom: 8vw;
+  }
+}
+
 .accept__label {
   display: flex;
   align-items: center;
