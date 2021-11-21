@@ -775,6 +775,7 @@ ul {
   }
   .team__item:not(:last-child) {
     margin-bottom: 30px;
+    margin: 15px;
   }
 }
 
