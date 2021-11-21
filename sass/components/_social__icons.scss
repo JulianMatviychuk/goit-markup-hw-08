@@ -1,3 +1,5 @@
+// соціальні іконки команди
+
 .social--team {
   display: flex;
   justify-content: space-between;
@@ -36,32 +38,34 @@
   fill: currentColor;
 }
 
-// .social__menu--footer {
-//   display: flex;
-//   justify-content: space-between;
-// }
+// Соціальні іконки футера
 
-// .social__link--footer {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 44px;
-//   height: 44px;
-//   border-radius: 50%;
-//   background-color: var(--footer-icon-bg-color);
-//   color: var(--white-title-color);
-//   transition-property: background-color;
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//   &:hover,
-//   &:focus {
-//     background-color: var(--accent-color);
-//   }
-// }
+.social__menu--footer {
+  display: flex;
+  justify-content: space-between;
+}
 
-// .social__icon--footer {
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   fill: currentColor;
-// }
+.social__link--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--footer-icon-bg-color);
+  color: var(--white-title-color);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.social__icon--footer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  fill: currentColor;
+}
