@@ -423,7 +423,7 @@ ul {
 .accept__label::before {
   content: '';
   display: block;
-  width: 16px;
+  min-width: 16px;
   height: 15px;
   border: solid 2px #212121;
   border-radius: 2px;
